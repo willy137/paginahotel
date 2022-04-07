@@ -16,11 +16,29 @@ a.menu{
     text-decoration: none;
     color: #ffffff;
 }
-ul.opcion li{
+.opcion li{
     display: inline;
     margin-left: 30px;
     line-height: 70px;
     color: #ffffff;
+}
+.opcion >li>a{
+    color:#ffffff ;
+    text-decoration: none;
+}
+.opcion>li:hover{
+ background-color: #DDDDDD;
+}
+
+.verti{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #972700;
+}
+.verti >li:hover{
+    display: block;
 }
 .encabezado{
     margin-top: 0px;
